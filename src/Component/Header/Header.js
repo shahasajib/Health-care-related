@@ -12,7 +12,7 @@ const Header = () => {
             <div>
                 <Navbar bg="light" expand="lg">
                     <Container>
-                        <Navbar.Brand className="header-name" href="#home"><span className="header-Word">N</span>utrition Gymnastics Center</Navbar.Brand>
+                        <Navbar.Brand className="header-name" href="#home"><span className="header-Word">N</span>utrition & Gymnastics Center</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className="nav">
                             <Nav className="m-2 nav-text">
