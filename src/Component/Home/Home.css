@@ -1,0 +1,13 @@
+.title-text{
+    background-color: #304050;
+    color: whitesmoke;
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.card-link-text{
+    text-decoration: none;
+    color: black;
+}
