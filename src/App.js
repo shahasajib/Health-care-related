@@ -14,6 +14,7 @@ import About from './Component/About/About';
 import Footer from './Component/Footer/Footer';
 import Error from './Component/NotFound/Error';
 import Register from './Component/Register/Register';
+import PrivateRoute from './Private/PrivateRoute';
 
 
 function App() {
@@ -28,12 +29,12 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route exact path="/service">
+          <PrivateRoute exact path="/service">
             <Service></Service>
-          </Route>
-          <Route exact path="/service2">
+          </PrivateRoute>
+          <PrivateRoute exact path="/service2">
             <Service2></Service2>
-          </Route>
+          </PrivateRoute>
           <Route exact path="/login">
             <Login></Login>
           </Route>

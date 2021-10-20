@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import "./Header.css"
 import banner from "../../Images/banner.jpg"
@@ -32,8 +32,9 @@ const Header = () => {
                     </Container>
                 </Navbar>
                 <div>
-                    <img className="img" src={banner} alt="" fluid />
+                    <img className="img" src={banner} alt="" />
                 </div>
+
             </div>
         </div>
     );

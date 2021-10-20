@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useFirebase from '../Hooks/useFirebase';
+import icon3 from '../../Images/google_icon_130924.png'
 
 const Login = () => {
     const { handleInGoogleSign } = useFirebase()
@@ -16,7 +17,7 @@ const Login = () => {
             </form>
             <div>----------or-----------</div>
             <button onClick={handleInGoogleSign} className=" mt-2">
-                Google Sign In
+                <img className="icon" src={icon3} alt="" />
             </button>
         </div>
     );
