@@ -4,7 +4,8 @@ import useFirebase from '../Hooks/useFirebase';
 import icon3 from '../../Images/google_icon_130924.png'
 
 const Login = () => {
-    const { handleInGoogleSign } = useFirebase()
+    const { handleInGoogleSign } = useFirebase();
+
     return (
         <div className="mt-3 text-center">
             <form>
